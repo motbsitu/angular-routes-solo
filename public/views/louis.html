@@ -7,9 +7,8 @@
   protagonist of Interview with the Vampire (the first book of The Vampire Chronicles).
 </p>
 
-<div ng-app="showMore">
-<input type="button" ng-click="moreAbout = !moreAbout" ng-init="moreAbout = false" value="More About Louis" />
-<p class="more-about" ng-show="moreAbout">
+<input type="button" ng-click="show.nowShow()" value="More About Louis" />
+<p class="more-about" ng-show="show.moreAbout">
   Louis de Pointe du Lac is born in France on October 4, 1766, to a Roman Catholic family who immigrated to
   North America when he was very young. His mother, sister and brother, Paul, live just outside New Orleans
   on one of their two indigo plantations, named Pointe du Lac after the family. Louis's brother, who insists
@@ -25,4 +24,3 @@
   only by Louis's beauty, but also by his tragedy and human heart; "He seduced the tenderness in me."
   Lestat makes Louis into a vampire, his immortal companion in 1791, and lives with Louis for nearly a century.
 </p>
-</div>

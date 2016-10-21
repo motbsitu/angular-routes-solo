@@ -2,16 +2,15 @@
 
 <p>
   <img src="images/armand.jpg" />
-  Armand is a fictional character in The Vampire Chronicles novels written by Anne Rice.
+  Armand, also called Amadeo, is a fictional character in The Vampire Chronicles novels written by Anne Rice.
   At the end of the series, he is approximately 500 years of age. His outward appearance
   is that of a beautiful adolescent boy, small, with reddish-brown locks, soft brown eyes
   and slender fingers. His features are at times compared figuratively to those of
   Cupid or a Botticelli angel.
 </p>
 
-<div ng-app="showMore">
-<input type="button" ng-click="moreAbout = !moreAbout" ng-init="moreAbout = false" value="More About Armand" />
-<p class="more-about" ng-show="moreAbout">
+<input type="button" ng-click="show.nowShow()" value="More About Armand" />
+<p class="more-about" ng-show="show.moreAbout">
 Shortly after Amadeo becomes a vampire, Marius' Palazzo is attacked by a Satanic cult of
 vampires, led by the vampire Santino. They set Marius on fire and kidnap Amadeo and the other
 children at the Palazzo and take them to Rome. Santino tortures Amadeo by burning his friends
@@ -22,4 +21,3 @@ known before. Because of his strength, he is named the leader of the Parisian co
 and renamed Armand, since a name with the word 'God' (Deo) in it seemed unfit for the leader
 of a satanic coven.
 </p>
-</div>
