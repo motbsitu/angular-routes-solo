@@ -7,9 +7,9 @@ angular.module('routeApp')
         }).when('/louis', {
             templateUrl: 'views/louis.html'
         }).otherwise({
+            redirectTo: '/',
             templateUrl: 'views/home.html'
         });
-        //lets us use normal looking links - /home
-        //need to set base href of / in index.html
+
         $locationProvider.html5Mode(true);
     });
