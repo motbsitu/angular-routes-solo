@@ -6,4 +6,4 @@
 
 
 ##Hard Mode
-Used ng-show in 'cheat' way.  Trying to set up controller to do correctly.
+Used ng-show
