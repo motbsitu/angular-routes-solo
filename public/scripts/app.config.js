@@ -6,6 +6,8 @@ angular.module('routeApp')
             templateUrl: 'views/armand.html'
         }).when('/louis', {
             templateUrl: 'views/louis.html'
+        }).otherwise({
+            templateUrl: 'views/home.html'
         });
         //lets us use normal looking links - /home
         //need to set base href of / in index.html
