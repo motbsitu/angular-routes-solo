@@ -60,7 +60,11 @@ h3{
   bottom: 0;
   left:0;
   float: left;
-  margin-left:20%;
+
   padding:1px 1px 5px 10px;
   font-size: 20px
+}
+
+.more-about{
+  border-radius: 1px solid black;
 }

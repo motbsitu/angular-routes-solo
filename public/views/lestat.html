@@ -6,3 +6,17 @@
   including The Vampire Lestat. He is a vampire who was the narrator and an antihero in
   the majority of The Vampire Chronicles.
 </p>
+
+<div ng-app="showMore" ng-controller="ShowController as show">
+<input type="button" ng-click="moreAbout = !moreAbout" ng-init="moreAbout = false" value="Physical Appearance" />
+<p class="more-about" ng-show="moreAbout">
+Physical appearance:
+Lestat describes himself as six feet tall. He has blond hair that is not quite shoulder
+length, and that is rather curly, which sometimes appears white under fluorescent lighting.
+His eyes are gray, but they reflect the colors of blue or violet easily from surfaces around
+them. He has a short narrow nose, and a mouth that is well shaped, but has always been slightly
+large for his face. His mouth can look very mean or extremely generous, but always sensual.
+He has a continuously animated face. Lestat's fingernails (like those of all vampires in The
+Vampire Chronicles) look like they are made of glass.
+</p>
+</div>
