@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="routeApp">
+  <head>
+    <title>Vampires from The Vampire Chronicles </title>
+    <meta charset="utf-8">
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+    <script src="scripts/app.module.js"></script>
+    <script src="scripts/app.config.js"></script>
+    <base href="/" />
+
+  </head>
+  <body>
+    <h1>Vampires from The Vampire Chronicles</h1>
+    <a href="/lestat">Lestat de Lioncourt</a>
+    <a href="/louis">Louis de Pointe du Lac</a>
+    <a href="/armand">Armand</a>
+
+    <ng-view>
+
+
+    </ng-view>
+
+  </body>
+</html>
